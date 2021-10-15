@@ -1,7 +1,4 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-ReactDOM.render(
-  <div>SNOWPACK</div>,
-  document.getElementById("root")
-);
+ReactDOM.render(<div>Snowpack-vs-Webpack</div>, document.getElementById("root"));
