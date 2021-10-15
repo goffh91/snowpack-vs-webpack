@@ -9,7 +9,7 @@ module.exports = {
   },
   plugins: [
     "@snowpack/plugin-react-refresh",
-    "@snowpack/plugin-webpack",
+    // "@snowpack/plugin-webpack",
     "@snowpack/plugin-dotenv",
     [
       "@snowpack/plugin-typescript",
