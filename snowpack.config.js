@@ -20,7 +20,7 @@ module.exports = {
     ],
   ],
   optimize: {
-    bundle: true,
+    // bundle: true,
   },
   packageOptions: {
     /* ... */
