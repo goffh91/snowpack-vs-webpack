@@ -1,9 +1,10 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
-module.exports = () => {
+module.exports = (webpackConfigEnv, argv) => {
+  const { env } = argv
   return {
-    mode: "development",
+    mode: env.mode || "development",
     entry: {
       index: "./src/index.tsx"
     },
